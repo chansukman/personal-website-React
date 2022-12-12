@@ -23,7 +23,10 @@ const Intro = () => {
           <span style={{ color: darkMode ? "#F1F1EE" : "" }}>Hi! I am</span>
           <span>Shuwen Chen</span>
           <span>
-          A graduate student in Software Engineering from Cardiff University. A big fans of coding.
+          A graduate student in Software Engineering from Cardiff University. A big fans of coding. 
+          </span>
+          <span>
+          You can check my GitHub and Linkedin using the icon below!
           </span>
         </div>
         {/* social icons */}
