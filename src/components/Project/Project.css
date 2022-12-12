@@ -1,0 +1,9 @@
+.project span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .project span:nth-of-type(2) {
+    color: var(--black);
+    font-size: 1rem;
+  }

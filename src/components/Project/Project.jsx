@@ -1,11 +1,13 @@
 import React from "react";
+import "./Project.css";
 
-const Project =({img,heading,detail})=>{
+const Project =({darkMode,img,heading,detail})=>{
+
     return(
         <div className="project"> 
         <img src={img}></img>
-        <span>{heading}</span>
-        <span>{detail}</span>
+        <span style={{color: darkMode?'#F1F1EE': ''}}>{heading}</span>
+        <span style={{color: darkMode?'#F1F1EE': ''}}>{detail}</span>
       </div>
     )
 }

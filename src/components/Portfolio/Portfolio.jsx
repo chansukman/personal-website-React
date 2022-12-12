@@ -3,6 +3,11 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Project1 from "../../img/project1.png";
+import Project2 from "../../img/project2.png";
+import Project3 from "../../img/project3.png";
+import Project4 from "../../img/project4.png";
+
+
 import Project from "../Project/Project";
 
 import { themeContext } from "../../Context";
@@ -12,7 +17,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{color: darkMode?'#F1F1EE': ''}}>Recent Projects</span>
 
       {/* slider */}
       <Swiper
@@ -26,31 +31,35 @@ const Portfolio = () => {
           className="project"
           img={Project1}
           heading={"Map Life"}
-          detail={"Detail..."}
+          detail={"This is a live streaming platform combined with map. Tech: Spring boot, Maven, JPA, JavaScript, leadlet API, google map API and twilio API"}
+          darkMode={darkMode}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Project
           className="project"
-          img={Project1}
+          img={Project2}
           heading={"Desk booking System"}
-          detail={"Detail..."}
+          detail={"This is a booking system with the lottery function. Tech: Spring boot, Gradle, JDBC, JavaScript, GmailAPI"}
+          darkMode={darkMode}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Project
           className="project"
-          img={Project1}
-          heading={"Learning well"}
-          detail={"Detail..."}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Project
-          className="project"
-          img={Project1}
+          img={Project3}
           heading={"Personal Website"}
-          detail={"Detail..."}
+          detail={"This is my personal portfolio. Tech: React"}
+          darkMode={darkMode}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Project
+          className="project"
+          img={Project4}
+          heading={"Learn Chinese well in 30 days"}
+          detail={"This is a Wechat mini-program. "}
+          darkMode={darkMode}
           />
         </SwiperSlide>
         {/* <SwiperSlide>
