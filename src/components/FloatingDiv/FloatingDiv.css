@@ -6,7 +6,7 @@
   padding: 0px 28px 0px 28px;
   height: 3rem;
   background: rgba(255, 255, 255,0.26);
-  border: 7px solid var(--orangeCard);
+  border: 7px solid var(--pinkCard);
   box-shadow: var(--boxShadow);
 }
 .floatingDiv > img {
