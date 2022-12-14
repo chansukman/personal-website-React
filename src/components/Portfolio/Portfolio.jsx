@@ -29,6 +29,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <Project
           className="project"
+          projectUrl={"https://github.com/chansukman/Maplife"}
           img={Project1}
           heading={"Map Life"}
           detail={"This is a live streaming platform combined with map. Tech: Spring boot, Maven, JPA, JavaScript, leadlet API, google map API and twilio API"}
@@ -38,6 +39,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <Project
           className="project"
+          projectUrl={"https://github.com/chansukman/office-desk-booking-system"}
           img={Project2}
           heading={"Desk booking System"}
           detail={"This is a booking system with the lottery function. Tech: Spring boot, Gradle, JDBC, JavaScript, GmailAPI"}
@@ -47,6 +49,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <Project
           className="project"
+          projectUrl={"https://github.com/chansukman/personal-website-React"}
           img={Project3}
           heading={"Personal Website"}
           detail={"This is my personal portfolio. Tech: React"}
@@ -55,6 +58,7 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Project
+          projectUrl={"https://github.com/chansukman/Wechat-miniProgram"}
           className="project"
           img={Project4}
           heading={"Learn Chinese well in 30 days"}
