@@ -32,10 +32,10 @@ const Intro = () => {
         {/* social icons */}
         <div className="i-icons">
           <a href="https://github.com/chansukman">
-          <img src={Github} />
+          <img src={Github} alt=""/>
           </a>
           <a href="https://linkedin.com/in/shuwenchen279">
-          <img src={LinkedIn} />
+          <img src={LinkedIn} alt=""/>
           </a>
         </div>
       </div>
