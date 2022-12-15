@@ -15,7 +15,7 @@ const Footer = () => {
           <a href="https://linkedin.com/in/shuwenchen279" target="_blank" rel="noreferrer">
           <Insta color="white" size={"3rem"} />
           </a>
-          <a href="https://github.com/chansukman" target="_blank">
+          <a href="https://github.com/chansukman" target="_blank" rel="noreferrer">
           <Gitub color="white" size={"3rem"} />
           </a>
         </div>
