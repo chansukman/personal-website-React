@@ -6,7 +6,7 @@ const Project =({darkMode,projectUrl,img,heading,detail})=>{
     return(
         <div className="project"> 
         <a href={projectUrl}>
-        <img src={img}></img>
+        <img src={img} alt=""></img>
         </a>
         <span style={{color: darkMode?'#F1F1EE': ''}}>{heading}</span>
         <span style={{color: darkMode?'#F1F1EE': ''}}>{detail}</span>
