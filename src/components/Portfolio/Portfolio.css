@@ -39,9 +39,22 @@
 .project{
   display: flex;
   flex-direction: column;
+  max-width: 390px;
 }
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
   .portfolio{
     padding:  10rem 3rem 0 3rem;;
+  }
+} */
+@media screen and (max-width: 800px) {
+  .portfolio{
+    height: auto;
+  }
+  .swiper-wrapper {
+    flex-direction: column;
+  }
+  .swiper-slide{
+    width: 100% !important;
+    margin-bottom: 50px;
   }
 }

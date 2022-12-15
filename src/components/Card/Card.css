@@ -23,7 +23,7 @@
   transform: scale(0.6);
   margin-bottom: -2rem;
 }
-@media screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
   .card{
     width: 10rem;
   }

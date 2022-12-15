@@ -67,6 +67,27 @@
   .cards {
     display: flex;
     flex-direction: column;
+    margin: 0 auto 0 auto;
+    width: 240px;
+    gap: 17rem;
+  }
+  .cards > * {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .services {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
     gap: 17rem;
   }
   .cards > * {
