@@ -39,7 +39,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <Project
           className="project"
-          projectUrl={"https://github.com/chansukman/office-desk-booking-system"}
+          projectUrl={"http://bookingsystem.westeurope.cloudapp.azure.com/login"}
           img={Project2}
           heading={"Desk booking System"}
           detail={"This is a booking system with the lottery function. Tech: Spring boot, Gradle, JDBC, JavaScript, GmailAPI"}
