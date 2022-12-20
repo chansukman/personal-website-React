@@ -1,15 +1,18 @@
 import React from "react";
 import "./Project.css";
 
-const Project =({darkMode,projectUrl,img,heading,detail})=>{
 
+const Project =({darkMode,img,heading,detail,proUrl,gitUrl})=>{
     return(
         <div className="project"> 
-        <a href={projectUrl} target="_blank" rel="noreferrer">
         <img src={img} alt=""></img>
-        </a>
         <span style={{color: darkMode?'#F1F1EE': ''}}>{heading}</span>
         <span style={{color: darkMode?'#F1F1EE': ''}}>{detail}</span>
+        <div className="project-linkbtn">
+          <a href={gitUrl} target="_blank" rel="noreferrer"><button className="button project-button">Github</button></a>
+            { proUrl ? <a href={proUrl} target="_blank" rel="noreferrer"><button className="button project-button">Website</button></a> : ''}
+        </div>
+      
       </div>
     )
 }
