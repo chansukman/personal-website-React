@@ -44,7 +44,7 @@ const Portfolio = () => {
           detail={"This is a booking system with the lottery function. Tech: Spring boot, Gradle, JDBC, JavaScript, GmailAPI"}
           darkMode={darkMode}
           gitUrl={"https://github.com/chansukman/office-desk-booking-system"}
-          proUrl={"http://shuwenproject.uksouth.cloudapp.azure.com/login"}
+          proUrl={"bookingsystem.shuwenchen.cf"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -55,6 +55,7 @@ const Portfolio = () => {
           detail={"This is my personal portfolio. Tech: React"}
           darkMode={darkMode}
           gitUrl={"https://github.com/chansukman/personal-website-React"}
+          proUrl={"maplife.shuwenchen.cf"}
           />
         </SwiperSlide>
         <SwiperSlide>
