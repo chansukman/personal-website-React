@@ -6,6 +6,8 @@ import Project1 from "../../img/project1.png";
 import Project2 from "../../img/project2.png";
 import Project3 from "../../img/project3.png";
 import Project4 from "../../img/project4.png";
+import Project5 from "../../img/project5.png";
+
 
 
 import Project from "../Project/Project";
@@ -34,7 +36,6 @@ const Portfolio = () => {
           detail={"This is a live streaming platform combined with map. Tech: Spring boot, Maven, JPA, JavaScript, leadlet API, google map API and twilio API"}
           darkMode={darkMode}
           gitUrl={"https://github.com/chansukman/Maplife"}
-          proUrl={"http://maplife.shuwenchen.cf"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -56,6 +57,17 @@ const Portfolio = () => {
           detail={"This is my personal portfolio. Tech: React"}
           darkMode={darkMode}
           gitUrl={"https://github.com/chansukman/personal-website-React"}
+          proUrl={"http://bookingsystem.shuwenchen.cf"}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Project
+          className="project"
+          img={Project5}
+          heading={"clone-chatGPT"}
+          detail={"This is clone chatGPT. Tech: React, node.js, openAI"}
+          darkMode={darkMode}
+          gitUrl={"https://github.com/chansukman/react-chatgpt-clone"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -68,15 +80,7 @@ const Portfolio = () => {
           gitUrl={"https://github.com/chansukman/Wechat-miniProgram"}
           />
         </SwiperSlide>
-        {/* <SwiperSlide>
-          <img src={Ecommerce} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
-        </SwiperSlide> */}
+  
       </Swiper>
     </div>
   );
