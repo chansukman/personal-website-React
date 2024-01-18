@@ -57,7 +57,7 @@ const Portfolio = () => {
           detail={"This is my personal portfolio. Tech: React"}
           darkMode={darkMode}
           gitUrl={"https://github.com/chansukman/personal-website-React"}
-          proUrl={"http://bookingsystem.shuwenchen.cf"}
+          proUrl={"https://www.shuwenchen.cf"}
           />
         </SwiperSlide>
         <SwiperSlide>
