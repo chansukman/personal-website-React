@@ -80,7 +80,6 @@ const Portfolio = () => {
           gitUrl={"https://github.com/chansukman/Wechat-miniProgram"}
           />
         </SwiperSlide>
-  
       </Swiper>
     </div>
   );
