@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import girl from "../../img/girl.png";
+// import girl from "../../img/girl.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
@@ -41,7 +41,7 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={girl} alt="" />
+        {/* <img src={girl} alt="" /> */}
         <motion.div
           initial={{ top: "-4%", left: "55%" }}
           whileInView={{ left: "65%" }}

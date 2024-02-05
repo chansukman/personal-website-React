@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
-import girl2 from "../../img/girl2.png";
+// import girl2 from "../../img/girl2.png";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
       {/* left side form */}
       <div className="w-left">
         <div className="w-left-img">            
-          <img src={girl2} alt="" />
+          {/* <img src={girl2} alt="" /> */}
         </div>
         <div className="awesome">
           {/* darkMode */}
