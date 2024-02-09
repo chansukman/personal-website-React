@@ -36,7 +36,7 @@ const Portfolio = () => {
           detail={"This is a live streaming platform combined with map. Tech: Spring boot, Maven, JPA, JavaScript, leadlet API, google map API and twilio API"}
           darkMode={darkMode}
           gitUrl={"https://github.com/chansukman/Maplife"}
-          proUrl={"http://maplife.shuwenchen.cf"}
+          proUrl={"http://maplife.shuwenchen.online"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -47,7 +47,7 @@ const Portfolio = () => {
           detail={"This is a booking system with the lottery function. Tech: Spring boot, Gradle, JDBC, JavaScript, GmailAPI"}
           darkMode={darkMode}
           gitUrl={"https://github.com/chansukman/office-desk-booking-system"}
-          proUrl={"http://bookingsystem.shuwenchen.cf"}
+          proUrl={"http://bookingsystem.shuwenchen.online"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -58,7 +58,7 @@ const Portfolio = () => {
           detail={"This is my personal portfolio. Tech: React"}
           darkMode={darkMode}
           gitUrl={"https://github.com/chansukman/personal-website-React"}
-          proUrl={"https://www.shuwenchen.cf"}
+          proUrl={"https://www.shuwenchen.online"}
           />
         </SwiperSlide>
         <SwiperSlide>
